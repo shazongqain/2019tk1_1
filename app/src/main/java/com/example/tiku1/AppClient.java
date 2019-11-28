@@ -7,6 +7,8 @@ import android.preference.PreferenceManager;
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
+import com.example.tiku1.bean.Hjzb;
+import com.example.tiku1.bean.Tjdd;
 
 
 import org.litepal.LitePal;
@@ -22,6 +24,16 @@ public class AppClient extends Application {
     private static RequestQueue requestQueue;
     private static SharedPreferences preferences;
 
+    public List<Tjdd> getMtjdd() {
+        return mtjdd;
+    }
+
+    private List<Tjdd> mtjdd= new ArrayList<>();
+    public List<Hjzb> getMhjzb() {
+        return mhjzb;
+    }
+
+    private List<Hjzb> mhjzb = new ArrayList<>();
 
 
     @Override

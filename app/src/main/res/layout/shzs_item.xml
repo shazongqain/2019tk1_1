@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/beijing"
+        android:background="#94B3CF"
+        android:layout_width="250dp"
+        android:layout_height="320dp">
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:id="@+id/riqi"
+            android:layout_height="wrap_content"
+            android:text="27日（今天）"
+            android:textSize="30dp"
+            android:textColor="#fff"
+            />
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:id="@+id/tu"
+            android:layout_marginTop="80dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/yin"
+            />
+        <TextView
+
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="150dp"
+            android:layout_width="wrap_content"
+            android:id="@+id/zhuangtai"
+            android:layout_height="wrap_content"
+            android:text="度"
+            android:textSize="30dp"
+            android:textColor="#fff"
+            />
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="220dp"
+            android:layout_width="wrap_content"
+            android:id="@+id/wc"
+            android:layout_height="wrap_content"
+            android:text="20/20℃"
+            android:textSize="30dp"
+            android:textColor="#fff"
+            />
+
+    </RelativeLayout>
+</LinearLayout>

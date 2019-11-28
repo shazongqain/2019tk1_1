@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+        <TextView
+            android:layout_width="0dp"
+            android:text="姓名"
+            android:textSize="35dp"
+            android:id="@+id/name"
+            android:gravity="center"
+            android:textColor="#000"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_width="0dp"
+            android:text="姓名"
+            android:id="@+id/time"
+            android:textSize="35dp"
+            android:gravity="center"
+            android:textColor="#000"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_width="0dp"
+            android:text="姓名"
+            android:id="@+id/luxian"
+            android:textSize="35dp"
+            android:gravity="center"
+            android:textColor="#000"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_width="0dp"
+            android:text="姓名"
+            android:textSize="35dp"
+            android:id="@+id/kaishi"
+            android:gravity="center"
+            android:textColor="#000"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_width="0dp"
+            android:text="姓名"
+            android:id="@+id/jieshu"
+            android:textSize="35dp"
+            android:gravity="center"
+            android:textColor="#000"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>

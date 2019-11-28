@@ -60,6 +60,16 @@ public class S_SJFXActivity extends AppCompatActivity {
 
     }
 
+
+
+    private void wzcs() {
+        for (Float count:cf.values())
+        {
+            if (count<=2) a++;
+            else  if (count<=5) b++;
+            else  if (count>5) c++;
+        }
+    }
     private void select1(int y) {
         for (int i=0;i<lin.getChildCount();i++)
         {
@@ -72,16 +82,6 @@ public class S_SJFXActivity extends AppCompatActivity {
             }
         }
     }
-
-    private void wzcs() {
-        for (Float count:cf.values())
-        {
-            if (count<=2) a++;
-            else  if (count<=5) b++;
-            else  if (count>5) c++;
-        }
-    }
-
     private void settu() {
         lin.removeAllViews();
         for (int i=0;i<fragments.size();i++)
